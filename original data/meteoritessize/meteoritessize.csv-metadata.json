@@ -1,0 +1,63 @@
+{
+  "licenseType": "Unknown",
+  "dc:description": "Imported at Fri Feb 15 06:26:55 PST 2013 from meteoritessize.csv.",
+  "exportable": true,
+  "dc:title": "meteoritessize",
+  "dc:modified": "2013-02-15T14:37:06Z",
+  "dc:identifier": "1vHSvjNgCIl6kRhFXPHhvESnnYx_ShToJWtWdjm8",
+  "tableSchema": {"columns": [
+    {
+      "datatype": "string",
+      "name": "col0",
+      "validateData": false,
+      "title": "Place"
+    },
+    {
+      "datatype": "string",
+      "name": "col1",
+      "validateData": false,
+      "title": "Type of meteorite"
+    },
+    {
+      "datatype": "double",
+      "name": "col2",
+      "validateData": false,
+      "title": "Mass, g"
+    },
+    {
+      "datatype": "string",
+      "name": "col3",
+      "validateData": false,
+      "title": "Fell/found?"
+    },
+    {
+      "datatype": "date",
+      "name": "col4",
+      "validateData": false,
+      "title": "Year"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col5",
+      "validateData": false,
+      "title": "Database"
+    },
+    {
+      "datatype": "location",
+      "name": "col6",
+      "validateData": false,
+      "title": "Coordinate 1",
+      "latitudeLongitudeColumns": {
+        "latitudeColumn": "col6",
+        "longitudeColumn": "col7"
+      }
+    },
+    {
+      "datatype": "double",
+      "name": "col7",
+      "validateData": false,
+      "title": "Coordinates 2"
+    }
+  ]}
+}
